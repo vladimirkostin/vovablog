@@ -6,7 +6,7 @@
 \********************************************/
 if(!defined("INDEX")){header('HTTP/1.1 403 Forbidden'); die('403 Forbidden');}
 date_default_timezone_set('Europe/Moscow');//временная зона (http://php.net/manual/ru/timezones.php)
-$login = 'robsa';//логин
+$login = 'admin';//логин
 $pass = '686710b565f0d268b4515ba41dfc9767';//пароль в md5
 $ip_allow = '';//разрешить доступ к админке только с этого IP (IP в md5). Оставьте пустым если блокировка по IP не нужна
 $auth = 1;//использовать для авторизации куки или сессии (0/1)
