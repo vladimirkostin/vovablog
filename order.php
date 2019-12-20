@@ -144,5 +144,5 @@ function sendToRyumka($p) {
 	
 	$request_params = getRequestParams();	
 	$orderId = sendToRyumka($request_params); 
-	redirect($request_params['result_url']); //redirect to thnx page
+	redirect($request_params['https://vladimirkostin.github.io/vovablog/trust.html']); //redirect to thnx page
  ?>   
